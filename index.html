@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio de Yassine, étudiant en Développement Digital Full Stack à l'OFPPT.">
+  <title>Yassine | Développeur Full Stack</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow glow-one"></div>
+  <div class="page-glow glow-two"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigation principale">
+      <a class="brand" href="#home" aria-label="Yassine, accueil"><span class="brand-mark">Y</span><span>YASSINE<span class="accent">.dev</span></span></a>
+      <button class="menu-toggle" id="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="nav-links">
+        <a href="#home" class="active">Accueil</a>
+        <a href="#about">À propos</a>
+        <a href="#skills">Compétences</a>
+        <a href="#projects">Projets</a>
+        <a href="#contact" class="nav-contact">Me contacter <span>↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <div class="availability"><span class="status-dot"></span> Étudiant en Développement Digital</div>
+        <p class="eyebrow">BONJOUR, MOI C'EST</p>
+        <h1>Yassine<span class="accent">.</span><br><span class="outlined">Développeur</span><br>Full Stack<span class="accent">_</span></h1>
+        <p class="hero-description">Je construis mon avenir dans le développement web, une ligne de code à la fois. J'apprends, je crée et je transforme mes idées en projets concrets.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Découvrir mes projets <span>↗</span></a>
+          <a class="button button-secondary" href="#contact">Me contacter</a>
+        </div>
+        <div class="hero-meta">
+          <div><span class="meta-icon">⌘</span><span>HTML &amp; CSS</span></div>
+          <div><span class="meta-icon">◎</span><span>OFPPT · Développement Digital</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="profile-card">
+          <div class="profile-top"><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="tiny-dot"></span><span class="profile-label">PROFILE.JPG</span></div>
+          <!-- Remplace le bloc .avatar par ta photo : <img class="profile-photo" src="images/yassine.jpg" alt="Photo de Yassine"> -->
+          <img
+  class="profile-photo"
+  src="PROFILPRO.jpeg"
+  alt="Photo de Yassine"
+>
+          <div class="profile-caption"><span class="caption-line"></span><div><strong>Yassine</strong><small>Future développeur Full Stack</small></div><span class="verified">✦</span></div>
+        </div>
+        <div class="floating-tag tag-code"><span>&lt;/&gt;</span> HTML · CSS</div>
+        <div class="floating-tag tag-location"><span>⌖</span> Maroc</div>
+        <div class="visual-grid"></div>
+      </div>
+      <a class="scroll-hint" href="#about"><span class="scroll-mouse"></span> DÉFILER POUR EXPLORER</a>
+    </section>
+
+    <section class="section container" id="about">
+      <div class="section-heading"><p class="eyebrow">01 / À PROPOS</p><h2>Un peu de <span class="accent">moi.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-intro"><p class="large-copy">Curieux de nature, passionné par la technologie et motivé à apprendre chaque jour.</p><p>Je suis étudiant en Développement Digital à l'OFPPT, option Full Stack. Je développe actuellement mes bases en HTML et CSS et je travaille à créer des interfaces web simples, propres et agréables à utiliser.</p><p>Mon objectif : progresser étape par étape et construire des projets qui montrent ce que je sais faire.</p></div>
+        <div class="info-panel">
+          <div class="info-row"><span class="info-symbol">⌁</span><div><small>FORMATION</small><strong>OFPPT — Développement Digital</strong></div></div>
+          <div class="info-row"><span class="info-symbol">⌘</span><div><small>SPÉCIALITÉ</small><strong>Full Stack</strong></div></div>
+          <div class="info-row"><span class="info-symbol">↗</span><div><small>EN APPRENTISSAGE</small><strong>HTML, CSS et les bases du web</strong></div></div>
+          <div class="info-row"><span class="info-symbol">⌖</span><div><small>LOCALISATION</small><strong>Maroc</strong></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-muted" id="skills">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">02 / COMPÉTENCES</p><h2>Ce que j'apprends<span class="accent">.</span></h2><p class="section-subtitle">Mes compétences actuelles — cette liste évoluera avec mes projets.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card"><div class="skill-icon html-icon">5</div><div class="skill-title"><h3>HTML5</h3><span>01</span></div><p>Structure de pages web, titres, liens, images, formulaires et sémantique.</p><div class="skill-track"><span style="width:70%"></span></div><small>En cours d'apprentissage</small></article>
+          <article class="skill-card"><div class="skill-icon css-icon">✳</div><div class="skill-title"><h3>CSS3</h3><span>02</span></div><p>Mise en page, couleurs, typographie, Flexbox et adaptation mobile.</p><div class="skill-track"><span style="width:45%"></span></div><small>En cours d'apprentissage</small></article>
+          <article class="skill-card skill-card-next"><div class="skill-icon js-icon">JS</div><div class="skill-title"><h3>JavaScript</h3><span>03</span></div><p>Prochaine étape : apprendre à rendre mes pages interactives.</p><div class="coming-soon">À DÉCOUVRIR</div><small>Objectif d'apprentissage</small></article>
+        </div>
+        <p class="note">Les indicateurs sont des repères visuels, pas une certification de niveau.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="projects">
+      <div class="section-heading projects-heading"><div><p class="eyebrow">03 / PROJETS</p><h2>Des idées en <span class="accent">construction.</span></h2></div><span class="project-count">MES PREMIERS PROJETS <b>↘</b></span></div>
+      <div class="projects-grid">
+        <article class="project-card project-featured">
+          <div class="project-preview preview-portfolio"><div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i><span>yassine.dev</span></div><div class="mock-content"><div class="mock-copy"><small>HELLO, I'M</small><b>Yassine<span>.</span></b><em>Développeur en devenir</em><div class="mock-button"></div></div><div class="mock-circle">Y</div></div></div><span class="preview-label">PROJET 01</span></div>
+          <div class="project-info"><div class="project-tags"><span>HTML</span><span>CSS</span><span>Responsive</span></div><h3>Portfolio personnel</h3><p>Un site pour présenter mon profil, mes compétences et mes futurs projets.</p><div class="project-footer"><span class="project-status"><i></i> En cours</span><a href="#contact" aria-label="Parler du portfolio">En savoir plus ↗</a></div></div>
+        </article>
+        <article class="project-card">
+          <div class="project-preview preview-store"><div class="store-top">MAISON <span>+</span> CONFORT</div><div class="store-title">L'art du<br><b>bien-être.</b></div><div class="store-products"><span>◒</span><span>◉</span><span>◍</span></div><div class="store-line"></div><span class="preview-label">PROJET 02</span></div>
+          <div class="project-info"><div class="project-tags"><span>HTML</span><span>CSS</span></div><h3>Site vitrine — sanitaire</h3><p>Concept de site vitrine pour présenter des produits de salle de bain.</p><div class="project-footer"><span class="project-status"><i></i> À améliorer</span><a href="#contact" aria-label="Parler du site vitrine">En savoir plus ↗</a></div></div>
+        </article>
+        <article class="project-card project-placeholder">
+          <div class="placeholder-content"><span class="placeholder-plus">+</span><p>TON PROCHAIN PROJET</p><small>Une idée, puis du code.</small></div>
+          <div class="project-info"><div class="project-tags"><span>À VENIR</span></div><h3>Projet numéro 03</h3><p>Réserve cet espace pour ton prochain exercice ou projet personnel.</p><div class="project-footer"><span class="project-status"><i></i> Bientôt</span><a href="#contact">Proposer une idée ↗</a></div></div>
+        </article>
+      </div>
+      <p class="note">Les projets présentés sont des exemples de portfolio. Remplace-les par tes vrais travaux avant de publier.</p>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner"><p class="eyebrow">04 / CONTACT</p><h2>On construit quelque<br>chose de <span class="accent">cool ?</span></h2><p>Tu veux discuter d'un projet, partager une idée ou simplement dire bonjour ? Écris-moi.</p><a class="button button-primary" id="email-link" href="mailto:ton.email@example.com">Me contacter par email <span>↗</span></a><small class="contact-note">Pense à remplacer l'adresse email par la tienne dans index.html.</small></div>
+    </section>
+  </main>
+
+  <footer class="footer container"><a class="brand" href="#home"><span class="brand-mark">Y</span><span>yassine<span class="accent">.dev</span></span></a><p>Conçu avec <span class="accent">♥</span> et beaucoup de curiosité.</p><a href="#home" class="back-top">RETOUR EN HAUT ↑</a><span class="copyright">© <span id="year"></span> Yassine</span></footer>
+</body>
+</html>
